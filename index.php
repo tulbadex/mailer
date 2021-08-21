@@ -176,7 +176,7 @@
 			    	success: function(data){
 			    		//$('#messageFeedBack').html(data).addClass('text-error').delay(3000).slideUp();
 			    		$('#send_message').attr('disabled', false); //fadeIn, fadeOut
-			    		$('#messageFeedBack').css('display', 'block').html("<h1 class='text-success'>Email sent successfully</h1>").addClass('text-success').delay(90).slideUp();
+			    		$('#messageFeedBack').css('display', 'block').html("<h1 class='text-success'>Email sent successfully</h1>").addClass('text-success').delay(3000).slideUp();
 			    		$(form)[0].reset();
 
 			    		/*if (data.type == 'success') {
